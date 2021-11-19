@@ -180,6 +180,9 @@ a:hover {
       width: 100%;
       margin-top: 60%;
   }
+  li {
+    font-family: aileron, sans-serif; 
+  }
   h1 {
       font-size: 1.8rem;
   }
