@@ -1,0 +1,202 @@
+html {
+    background-color: black;
+}
+
+@font-face {
+    font-family: aileron, sans-serif;   
+    src: url(https://use.typekit.net/qrw7yiw.css) format('truetype');
+}
+
+.main-content, header {
+    max-width: 90%;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, p {
+    color: white;
+    font-family: 'aileron';
+    font-weight: 900;
+}
+
+h1{
+    font-size: 2.25rem;
+    margin: 2rem 0;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 700;}
+
+p {
+    font-size: 1.5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: var(--black);
+    height: 6rem;
+    max-width: 90%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+  
+.nav-item {
+    margin: 0 1rem 0 1rem;
+    color: white;
+}
+  
+#landing-page {
+    width: 65%;
+    margin-top: 20%;
+}
+
+#landing-pg {
+    background-image: url(background.png);
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+h1 .linear-gradient {
+    background: -webkit-linear-gradient(bottom right, #415894, #EBB0CC);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p .linear-gradient {
+    background: -webkit-linear-gradient(bottom right, #415894, #EBB0CC);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#intro-text {
+    text-align: left;
+    background: #415894;
+    margin: 6% 0 5% 0;
+    padding: 1% 2%;
+    border-radius: 20px;
+}
+
+#brain-consequences, #body-consequences {
+    width: 90%;
+    margin: auto;
+}
+
+#brain-consequences {
+    margin: 8% auto;
+}
+
+ol, ul {
+    color: white;
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+.blue-link, .pink-link {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+a.blue-link:hover {
+    color: white;
+    text-decoration: none;
+    background: #415894;
+}
+
+a.pink-link{
+    color: #EBB0CC;
+}
+
+a.pink-link:hover {
+    color: white;
+    text-decoration: none;
+    background: #EBB0CC;
+}
+
+#closing-box{
+   background-image: url(clouds.svg);
+   background-size: cover;
+   padding: 5% 0 3% 0;
+}
+
+#closing-text {
+    max-width: 90%;
+    margin: auto;
+}
+
+li {
+    margin-bottom: 0.6rem;
+}
+
+.spot-img {
+    height: 12.5rem;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'aileron';
+  font-weight: bold;
+  color: #415894;
+}
+
+a:hover {
+  color: #415894;
+}
+
+
+@media screen and (max-width: 590px) {
+  header {
+    flex-direction: column;
+    margin-top: 2.3rem;
+    align-items: center;
+  }
+  .landing-text {
+    width: 100%;
+    margin-top: 45%;
+  }
+  #landing-page {
+      width: 100%;
+      margin-top: 60%;
+  }
+  h1 {
+      font-size: 1.8rem;
+  }
+  h2, p {
+      font-size: 1rem;
+  }
+
+  #intro-text {
+      padding: 2% 4%;
+  }
+  ol,ul {
+      font-size: 0.8rem;
+      padding-left: 1rem;
+  }
+  #brain-consequences, #body-consequences {
+      width: 100%;
+  }
+  .spot-img {
+      height: 8rem;
+  }
+  
+  #cloud-img {
+      height: 6rem;
+  }
+}
